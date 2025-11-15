@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BreakFeast Cafe Menu</title>
+<style>
+ html, body { background: #485132; color: #f4bb85; font-family: 'Inter', Arial, sans-serif; margin:0; padding:0; }
+ body { line-height: 1.7; }
+ .page { max-width: 430px; margin: 0 auto; padding: 2em 1.2em; }
+ .header { text-align: center; padding-bottom: 1em; border-bottom: 2px solid #f4bb85; margin-bottom: 1.6em; }
+h1 { font-size: 56px; font-weight: bold; margin-bottom: 1em; letter-spacing: 1px; }
+ .tagline { font-size: 26px; font-style: italic; margin-bottom: 1.2em; opacity: 0.9; }
+ .contact { font-size: 24px; margin-bottom: 1.2em; font-weight: 600; }
+ .notice { font-size: 20px; font-style: italic; margin-top: 1.3em; padding: 1em 1.3em; border: 2px solid #f4bb85; border-radius: 6px; text-align: center; }
+ .self-service { font-size: 20px; margin-top: 1.2em; padding: 1em 1.3em; background: rgba(244, 187, 133, 0.13); border-radius: 6px; text-align: center; }
+ .gst-note { font-size: 20px; margin-top: 1em; text-align: center; opacity: 0.8; }
+ .menu-anchor-links { padding: 1.5em 0 2.1em 0; text-align:center; }
+ .menu-anchor-links a { display:block; line-height:2.3; color: #f4bb85; background:rgba(244,187,133,0.045); margin: 0.23em 0; padding: 0.3em 1.15em; border-radius: 12px; text-decoration:none; font-size: 26px; border: 2px solid #f4bb85; font-weight: 600; transition: background 0.15s; }
+ .menu-anchor-links a:hover { background:#f4bb85; color: #485132; }
+h2 { font-size: 36px; margin: 2.6em 0 1.4em 0; color: white; }
+h3 { font-size: 26px; margin: 2.6em 0 1.4em 0; color: #f4bb85; }
+ .item { margin-bottom: 2.1em; padding-bottom: 1.5em; border-bottom: 2px solid rgba(244, 187, 133, 0.18); }
+ .item:last-child { border-bottom:none; }
+ .item-name { font-size: 24px; font-weight: bold; margin-bottom: 0.5em; color: white; }
+ .variants { font-size: 20px; margin-bottom: 0.5em; font-weight: 600; }
+ .price { font-size: 20px; margin-bottom: 0.5em; font-weight: 600; color: #f4bb85; }
+ .description { font-size: 18px; opacity: 0.92; line-height: 1.55; }
+ .footer { text-align: center; padding-top: 3em; margin-top: 2.2em; border-top: 2px solid #f4bb85; font-size: 20px; color: #f4bb85; }
+ .footer strong { display: block; font-size: 22px; margin-bottom: 0.6em; }
+ .footer em { display: block; font-size: 20px; margin-top: 0.6em; }
+ #backToTopBtn { position: fixed; bottom: 30px; right: 30px; background-color: #f4bb85; color: #485132; border: none; padding: 12px 18px; border-radius: 50%; font-size: 22px; cursor: pointer; box-shadow: 0 2px 6px rgba(0,0,0,0.3); display: none; z-index: 100; }
+ #backToTopBtn:hover { background-color: #d9a962; }
+ #backToTopBtn.show { display: flex; align-items: center; justify-content: center; }
+</style>
+</head>
+<body>
+<div class="page">
+<div class="header">
+<h1>BreakFeast Cafe</h1>
+<div class="tagline">Authentic Hyderabadi Breakfast & Home-Style Delights</div>
+<div class="contact">☎️ 7981997853 | @breakfeastcafe</div>
+</div>
+<div class="self-service"><b>Self Service</b><br>We believe in keeping prices affordable — help us serve you better by collecting your order from the counter</div>
+<div class="notice">Kindly allow us 20 minutes to prepare your order fresh and with care — good things take time!</div>
+<div class="gst-note">*5% GST applicable on all items</div>
+<div class="menu-anchor-links">
+<a href="#signaturehyderabadicombos">SIGNATURE HYDERABADI COMBOS</a>
+<a href="#hyderabadisignaturemains">HYDERABADI SIGNATURE MAINS</a>
+<a href="#kuthuparotta">KUTHU PAROTTA</a>
+<a href="#lukhmi,pooribhature">LUKHMI, POORI & BHATURE</a>
+<a href="#riceplates">RICE PLATES</a>
+<a href="#chinesestarters">CHINESE STARTERS</a>
+<a href="#friedrice">FRIED RICE</a>
+<a href="#beverages">BEVERAGES</a>
+<a href="#dessert">DESSERT</a>
+</div>
+<a id="signaturehyderabadicombos"></a>
+<h2>SIGNATURE HYDERABADI COMBOS</h2>
+<div class='item'><div class='item-name' style='color:white;'>Kichdi Khatta Kheema</div><div class='variants'>Mutton 299 | Chicken 199 | Egg 149 | Soya 149</div><div class='description'>Comforting basmati rice-masoor dal kichdi with spicy kheema of your choice, and tangy gravy — the ultimate Hyderabadi breakfast</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Kheema Roti/Poori</div><div class='variants'>Mutton 299 | Chicken 199 | Egg 149 | Soya 149</div><div class='description'>Soft hand-rolled rotis or puffed pooris paired with flavorful spiced kheema of your choice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Tala Hua Gosht - Khatti Dal</div><div class='variants'>349</div><div class='description'>Aromatic bagara rice paired with juicy and fiery fried boneless mutton chunks and tangy dal — a royal Hyderabadi feast</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Mutton Dalcha</div><div class='variants'>299</div><div class='description'>Slow-cooked mutton (with bone) and dal with bottle-gourd in traditional spices, served with fragrant bagara rice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Mutton Curry</div><div class='variants'>With Bone 299 | Boneless 349</div><div class='description'>Fragrant rice with home-style mutton curry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Kheema</div><div class='variants'>Mutton 299 | Chicken 199 | Egg 149 | Soya 149</div><div class='description'>Fragrant bagara rice served with traditional Hyderabadi-style Kheema of your choice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Tala hua Murgh - Dal Fry</div><div class='variants'>249</div><div class='description'>Soft and juicy, yet fiery boneless chicken fry served with aromatic bagara rice and classic dhaba-style dal fry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Jeera Rice - Chicken 65</div><div class='variants'>199</div><div class='description'>Cumin-spiced rice with juicy, spice-marinated Chicken 65</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Chicken Fry</div><div class='variants'>149</div><div class='description'>Spicy-fried chicken pieces with bagara rice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Chicken Curry</div><div class='variants'>139</div><div class='description'>Home-style chicken curry paired with fragrant bagara rice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Anda Khagina</div><div class='variants'>139</div><div class='description'>Eggs in Hyderabadi-style gravy, served with bagara rice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Kaddu ka Dalcha</div><div class='variants'>149</div><div class='description'>Bottle-gourd cooked in tangy dal, served with aromatic bagara rice — a vegetarian delight</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice - Bagara Baingan</div><div class='variants'>149</div><div class='description'>Hyderabad's iconic brinjal curry in rich peanut-sesame gravy with bagara rice</div></div>
+<a id="hyderabadisignaturemains"></a>
+<h2>HYDERABADI SIGNATURE MAINS</h2>
+<div class='item'><div class='item-name' style='color:white;'>Nihari Paya</div><div class='variants'>299</div><div class='description'>Slow-cooked overnight, Mutton trotters (Paya) in rich, aromatic and soupy gravy — breakfast royalty</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Tala Hua Gosht</div><div class='variants'>299</div><div class='description'>Juicy and fiery, fried boneless mutton chunks in thick gravy</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Mutton Dalcha</div><div class='variants'>249</div><div class='description'>Tender mutton pieces and slices of bottle-gourd in tangy dal — a Hyderabadi staple</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Mutton Curry</div><div class='variants'>With bone 249 | Boneless 299</div><div class='description'>Home-style mutton curry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Kheema Masala</div><div class='variants'>Mutton 249 | Chicken 149 | Egg 99 | Soya 99</div><div class='description'>Spiced Kheema of your choice cooked with aromatic masalas</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Fry</div><div class='variants'>With bone 119 | Boneless 169</div><div class='description'>Chicken fried with spicy masalas and onions.</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Curry</div><div class='variants'>With bone 99 | Boneless 149</div><div class='description'>Home-style chicken curry with rich, flavorful gravy</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken 65</div><div class='variants'>139</div><div class='description'>Hyderabad's iconic chicken starter with red chilli coating</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Anda Khagina</div><div class='variants'>99</div><div class='description'>Eggs in traditional Hyderabadi gravy with onions, green chilies and spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Anda Bhurji</div><div class='variants'>79</div><div class='description'>Classic Indian scrambled eggs with onions, tomatoes and aromatic spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Aloo Jeera</div><div class='variants'>139</div><div class='description'>Cumin-flavored potatoes — simple and satisfying</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Omelette</div><div class='variants'>59</div><div class='description'>Fluffy egg omelette cooked to perfection</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Kaddu ka Dalcha</div><div class='variants'>109</div><div class='description'>Bottle-gourd in tangy dal — comfort food at its best</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Paneer Bhurji / Curry</div><div class='variants'>149</div><div class='description'>Scrambled cottage cheese or curry-style paneer cooked with onions, tomatoes and spices</div></div>
+<a id="kuthuparotta"></a>
+<h2>KUTHU PAROTTA</h2>
+<div class='item'><div class='item-name' style='color:white;'>Mutton Kuthu Parotta</div><div class='variants'>249</div><div class='description'>Flaky parotta pieces tossed with tender mutton kheema and aromatic spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Kuthu Parotta</div><div class='variants'>149</div><div class='description'>Shredded parotta with spiced chicken and curry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Paneer Kuthu Parotta</div><div class='variants'>149</div><div class='description'>Cottage cheese cubes tossed with parotta pieces and flavorful masala</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Egg Kuthu Parotta</div><div class='variants'>119</div><div class='description'>Chopped parotta mixed with scrambled eggs and spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Veg Kuthu Parotta</div><div class='variants'>99</div><div class='description'>Mixed vegetables tossed with shredded parotta and aromatic spices</div></div>
+<a id="lukhmi,pooribhature"></a>
+<h2>LUKHMI, POORI & BHATURE</h2>
+<div class='item'><div class='item-name' style='color:white;'>Kheema Lukhmi</div><div class='variants'>Mutton 249 | Chicken 179 | Soya 129</div><div class='description'>Crispy parcels stuffed with spiced kheema of your choice — a Hyderabadi snack classic</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Chole Bhature</div><div class='variants'>179</div><div class='description'>Soft fluffy bhature with chicken and chickpea curry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Poori Chicken Curry</div><div class='variants'>139</div><div class='description'>Golden pooris paired with flavorful chicken curry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chole Bhature</div><div class='variants'>119</div><div class='description'>Soft fluffy bhature served with spiced chickpea curry</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Extra Poori / Phulka / Chapati</div><div class='variants'>19</div><div class='description'>Add more breads to complete your meal</div></div>
+<a id="riceplates"></a>
+<h2>RICE PLATES</h2>
+<div class='item'><div class='item-name' style='color:white;'>Lemon Pulihora</div><div class='variants'>119</div><div class='description'>Tangy lemon-flavored rice tempered with curry leaves and peanuts</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Tamarind Pulihora</div><div class='variants'>119</div><div class='description'>South Indian tamarind rice with aromatic spices and curry leaves</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Tomato Rice</div><div class='variants'>99</div><div class='description'>Flavorful rice cooked with tomatoes and traditional spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Pudina Rice</div><div class='variants'>99</div><div class='description'>Mint-flavored rice with aromatic herbs</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Curd Rice</div><div class='variants'>89</div><div class='description'>Cooling rice mixed with fresh curd — perfect comfort food</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Kichdi Khatta</div><div class='variants'>99</div><div class='description'>Rice-masoor dal khichdi served with tangy tamarind gravy</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Bagara Rice</div><div class='variants'>99</div><div class='description'>Aromatic rice flavored with whole spices and caramelized onions</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Jeera Rice</div><div class='variants'>99</div><div class='description'>Cumin-spiced basmati rice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Kaanda Poha</div><div class='variants'>99</div><div class='description'>Flattened rice with onions, peanuts and aromatic spices</div></div>
+
+<a id="chinesestarters"></a>
+<h2>CHINESE STARTERS</h2>
+<h3>Non-Veg</h3>
+<div class='item'><div class='item-name' style='color:white;'>Honey Chilli Wings  199</div><div class='description'>Crispy chicken wings glazed with honey and chilli sauce</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Lollipops 199</div><div class='description'>Succulent chicken lollies with crispy coating and bold spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Majestic  149</div><div class='description'>Premium chicken preparation with cashew nuts and aromatic spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Dragon Chicken  149</div><div class='description'>Fiery chicken in dragon sauce with bold flavors</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chilli Chicken  129</div><div class='description'>Classic Indo-Chinese chicken in spicy chilli sauce</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chicken Manchurian  129</div><div class='description'>Chicken dumplings in tangy Manchurian sauce</div></div>
+<h3>Veg</h3>
+<div class='item'><div class='item-name' style='color:white;'>Paneer Majestic  179</div><div class='description'>Premium paneer preparation with cashew nuts and aromatic spices</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chilli Paneer  149</div><div class='description'>Cottage cheese tossed in Indo-Chinese chilli sauce</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Paneer 65  149</div><div class='description'>Crispy paneer cubes with spicy coating</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Paneer Manchurian  149</div><div class='description'>Paneer dumplings in tangy-sweet Manchurian sauce</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Paneer Schezwan  149</div><div class='description'>Paneer in fiery schezwan sauce</div></div>
+
+
+<a id="friedrice"></a>
+<h2>FRIED RICE</h2>
+<div class='item'><div class='item-name' style='color:white;'>Burnt Garlic Rice</div><div class='variants'>Chicken 129 | Egg 109 | Veg 99</div><div class='description'>Aromatic fried rice with crispy garlic flakes</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Singapore Rice</div><div class='variants'>Chicken 129 | Egg 109 | Veg 99</div><div class='description'>Curry-flavored fried rice Singapore-style</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Schezwan Fried Rice</div><div class='variants'>Chicken 119 | Egg 99 | Veg 89</div><div class='description'>Fiery schezwan-style fried rice</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Chilli Garlic Rice</div><div class='variants'>Chicken 119 | Egg 99 | Veg 89</div><div class='description'>Fried rice with bold garlic and chilli flavors</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Classic Fried Rice</div><div class='variants'>Chicken 109 | Egg 89 | Veg 79</div><div class='description'>Classic bandi-style fried rice with veggies</div></div>
+<a id="beverages"></a>
+<h2>BEVERAGES</h2>
+<div class='item'><div class='item-name' style='color:white;'>Boost  30</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Horlicks  30</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Plain Milk  30</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Masala Tea  25</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Black Coffee  25</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Lemon Tea  25</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Ginger Tea  20 / 25</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Coffee  25</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Green Tea  20</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Tea  15 / 25</div></div>
+<div class='item'><div class='item-name' style='color:white;'>Black Tea  15</div></div>
+<a id="dessert"></a>
+<h2>DESSERT</h2>
+<div class='item'><div class='item-name' style='color:white;'>Gulab Jamun</div><div class='variants'>Single piece 30 | 2 pieces 50</div><div class='description'>Soft deep-fried milk dumplings in cardamom-scented sugar syrup</div></div>
+<button id="backToTopBtn" onclick="document.querySelector('div.menu-anchor-links').scrollIntoView({ behavior: 'smooth' });">↑</button><div class="footer"><strong>BreakFeast Cafe</strong> 7981997853 | @breakfeastcafe <em>Serving Authentic Hyderabadi Breakfast & More</em></div></div>
+
+<script>
+window.addEventListener('scroll', function() {
+  var btn = document.getElementById('backToTopBtn');
+  if (window.scrollY > 300) {
+    btn.classList.add('show');
+  } else {
+    btn.classList.remove('show');
+  }
+});
+</script>
+
+</body>
+</html>
